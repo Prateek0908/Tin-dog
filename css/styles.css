@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size:2rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size:1rem;
+  font-family: 'Montserrat-light';
+  color:#fff;
+}
+
+/* Title-image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position:relative;
+  left:15%;
+}
+
+#title {
+  background-color: red;
+
+}
+
+/* Download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+/* Font Awesome*/
+.icon {
+  margin: 100px 0 20px 0;
+  color: #ef8172;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:2rem;
+  font-weight: 700;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#features{
+  background-color:#fff;
+
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Testimonial-section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* Press-Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+
+.padding-column{
+  padding:2% 3%;
+}
+
+.card-header{
+  background-color:#ffc618;
+}
+
+/* call to action */
+
+#cta{
+  text-align:center;
+  color: #fff;
+  background-color:#ff4c68;
+  padding:7% 15%;
+}
+
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:700;
+  line-height: 1.5;
+
+}
+
+/* footer section */
+
+#footer{
+  text-align:center;
+  background-color:#fff;
+  padding:7% 15%;
+}
+
+.social-icon{
+  padding:0 1% 2%;
+}
+
+
+
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align:center;
+  }
+
+  .title-image{
+    position:static;
+   transform: rotate(0);
+
+  }
+
+}
